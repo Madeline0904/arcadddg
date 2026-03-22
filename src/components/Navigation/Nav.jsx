@@ -41,10 +41,10 @@ export default function Nav() {
 			<style jsx>
 				{`
 					#lngPl {
-						display: ${i18n.language === 'pl' ? 'none' : 'block'};
+						display: 'block';
 					}
 					#lngEn {
-						display: ${i18n.language === 'en' ? 'none' : 'block'};
+						display: 'block';
 					}
 					#navbarNavAltMarkup {
 						display: ${isOpen ? 'block' : 'none'};

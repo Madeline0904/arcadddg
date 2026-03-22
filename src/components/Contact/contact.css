@@ -1,12 +1,11 @@
 .container-contact {
-    display: flex;
-    justify-content: center;
- 
+	display: flex;
+	justify-content: center;
 }
 
 .contact {
 	position: relative;
-	background-image: url('../../assets/img/smartphone-3139219_1920.jpg');
+	background-image: url('../../../public/assets/img/smartphone-3139219_1920.jpg');
 	background-position: center;
 	background-size: cover;
 	z-index: 0;

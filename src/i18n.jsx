@@ -12,6 +12,9 @@ i18n
 	.use(LanguageDetector)
 	.use(initReactI18next)
 	.init({
+		backend: {
+			loadPath: '/arcadddg/locales/{{lng}}/{{ns}}.json',
+		},
 		fallbackLng: 'pl',
 		debug: true,
 		interpolation: {

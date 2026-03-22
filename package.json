@@ -10,7 +10,7 @@
 		"lint": "eslint .",
 		"preview": "vite preview",
 		"predeploy": "npm run build",
-		"deploy": "vite build --base=https://madeline0904.github.io/arcadddg/ gh-pages -d dist"
+		"deploy": "vite build --base=https://madeline0904.github.io/arcadddg/ && gh-pages -d dist"
 	},
 	"dependencies": {
 		"hamburger-react": "^2.5.2",

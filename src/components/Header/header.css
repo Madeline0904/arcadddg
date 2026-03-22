@@ -1,37 +1,37 @@
 header.hero-img {
-  position: relative;
-  height: 100vh;
-  background-image: url("./public/assets/img/backbround3.jpg");
-  background-size: cover;
-  background-position: center;
-  color: #fff;
-  z-index: 0;
+	position: relative;
+	height: 100vh;
+	background-image: url('../../../public/assets/img/backbround3.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	z-index: 0;
 }
 header.hero-img h1 {
-  text-transform: uppercase;
+	text-transform: uppercase;
 }
 header.hero-img .hero-shadow {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(20, 20, 32, 0.858);
-  z-index: -5;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(20, 20, 32, 0.858);
+	z-index: -5;
 }
 header.hero-img .hero-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  letter-spacing: 7px;
-  height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	letter-spacing: 7px;
+	height: 100%;
 }
 header.hero-img .fa-regular {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 20px;
-  font-size: 30px;
-  color: #fff;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 20px;
+	font-size: 30px;
+	color: #fff;
 }

@@ -6,7 +6,7 @@ import Video from 'yet-another-react-lightbox/plugins/video'
 import 'yet-another-react-lightbox/styles.css'
 import Captions from 'yet-another-react-lightbox/plugins/captions'
 import 'yet-another-react-lightbox/plugins/captions.css'
-import { slides } from './slides'
+import { getSlides } from './slides'
 import './portfolio.css'
 
 export default function Portfolio() {
@@ -17,7 +17,7 @@ export default function Portfolio() {
 				<h2 class='section-title'>portfolio</h2>
 				<div class='underline'></div>
 				<RowsPhotoAlbum
-					photos={slides}
+					photos={getSlides(200)}
 					targetRowHeight={150}
 					onClick={({ index: current }) => setIndex(current)}
 					render={{
@@ -39,7 +39,7 @@ export default function Portfolio() {
 				/>
 				<LightBox
 					index={index}
-					slides={slides}
+					slides={getSlides(3000)}
 					open={index >= 0}
 					close={() => setIndex(-1)}
 					plugins={[Captions, Video]}
