@@ -1,0 +1,25 @@
+
+.offer i {
+
+  font-size:17px;
+}
+.offer .offer-card-title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.offer-card-text{
+  width: 100%;
+}
+.offer .offer-card-text {
+  font-size: 16px;
+}
+ .offer-hover {
+display: flex;
+  transition: color 0.3;
+}
+.offer .offer-hover:hover {
+  color: #039dff;
+}
+.small-icon-diamond{
+  margin-right: 7px;
+}

@@ -1,0 +1,35 @@
+{
+	"home": "Strona główna",
+	"about": "O firmie",
+	"contact": "Kontakt",
+	"offer": "Oferta",
+	"portfolio": "Portfolio",
+	"header": {
+		"nameOfCompany": "Technika diamentowa",
+		"checkoffer": "Poznaj ofertę"
+	},
+	"firm": {
+		"description": {
+			"name": "ARCAD DDG",
+			"part1": " specjalizuje się w profesjonalnym cięciu i wierceniu techniką diamentową w konstrukcjach betonowych i żelbetowych. Nasze usługi realizujemy w Polsce oraz wielu krajach Europy, wykonując zaawansowane prace dla sektora budowlanego i przemysłowego. Od ponad czterech lat współpracujemy z firmą Westinghouse przy projektach demontażu elementów reaktorów jądrowych. Prace wykonujemy metodą precyzyjnego cięcia pod wodą w basenach reaktorowych o głębokości około 25 metrów, we współpracy z międzynarodowym zespołem specjalistów. Kraje współpracy: ",
+			"part2": "Polska, Niemcy, Szwecja, Finlandia, Austria, Republika Południowej Afryki. Projekty elektrowni: KKU Unterweser, KKI Isar, KKB Biblis (Niemcy) oraz BKW (Szwajcaria)."
+		}
+	},
+	"offerText":{
+"text1":"Wiercenie otworów techniką diamentową",
+"text2":"Cięcia w betonie, żelbetonie techniką diamentową",
+"text3":"Cięcia liną diamentową",
+"text4":"Cięcia piłami jezdnymi",
+"text5":"Cięcia piłami ściennymi",
+"text6":"Mocowanie kotew",
+"text7":"Rozbiórki techniczne",
+"text8":"Wyburzenia"
+	},
+	"contactDetails": {
+	"name":{
+		"title":"Dane kontaktowe",
+		"madeBy":"Wyk. Magdalena Krawiec"
+	}
+
+}
+}

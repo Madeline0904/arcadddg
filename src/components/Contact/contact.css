@@ -1,0 +1,37 @@
+.container-contact {
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.contact {
+	position: relative;
+	background-image: url('../../assets/img/smartphone-3139219_1920.jpg');
+	background-position: center;
+	background-size: cover;
+	z-index: 0;
+	color: #fff;
+}
+.contact h3 {
+	text-transform: uppercase;
+	font-size: 1.1rem;
+	letter-spacing: 2px;
+}
+
+.contact .contact-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: -5;
+}
+.contact a {
+	color: #fff;
+}
+.contact a:hover,
+.contact .fa-envelope:hover,
+.contact .fa-mobile-screen-button:hover {
+	color: #039dff;
+}

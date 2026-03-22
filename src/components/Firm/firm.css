@@ -1,0 +1,78 @@
+.firm_img{
+ position: relative;
+  height: 100vh;
+  background-image: url("./public/assets/img/huta_katowice.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #fff;
+  z-index: 0;
+  
+}
+ .firm_shadow {
+position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(20, 20, 32, 0.858);
+  z-index: -5;}
+
+  .firm-item{
+    width:100%;
+    height: 100vh;
+  }
+.firm-text-container{
+            margin:10px;
+padding: 0px;
+font-size: 15px;
+line-height: 25px;
+    display: flex;
+    justify-content: center;
+    /* padding: 8em; */
+    /* font-size: 18px;
+    margin: 30px;
+    line-height: 42px; */
+    align-items: center;
+    flex-direction: column;
+    letter-spacing: 3px;
+    height: 80%;
+    width: 55%;
+    background-color: rgba(20, 20, 32, 0.700);
+
+}
+.firm-text{
+    /* padding: 8em; */
+         padding: 30px;
+         text-align: center;
+}
+  .firm{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+  .underline {
+	margin: 0 auto 40px;
+	width: 60px;
+	height: 4px;
+	background-color: #039dff;
+}
+
+@media (max-width: 500px){
+    .firm-text{
+        padding: 10px;
+    }
+    .firm-text-container{
+        margin:5px;
+padding: 0px;
+font-size: 15px;
+line-height: 17px;
+    }
+}
+
+@media (max-width: 768px){
+.firm-text-container{
+    width: 100%;
+}
+}
