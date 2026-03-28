@@ -11,26 +11,28 @@
 	"firm": {
 		"description": {
 			"name": "ARCAD DDG",
-			"part1": " specializes in professional diamond drilling and cutting in concrete and reinforced concrete structures. Our services are provided in Poland and across many European countries, delivering advanced solutions for the construction and industrial sectors. For more than four years we have cooperated with Westinghouse on projects related to dismantling nuclear reactor components. Our work includes precision underwater cutting in reactor pools at depths of approximately 25 meters, performed together with an international team of specialists. Countries of cooperation: ",
-			"part2": "Poland, Germany, Sweden, Finland, Austria, South Africa. Nuclear power plant projects: KKU Unterweser, KKI Isar, KKB Biblis (Germany) and BKW (Switzerland)."
+			"part1": " specializes in professional diamond drilling and cutting in concrete and reinforced concrete structures.",
+			"part2": "Our services are provided in Poland and across many European countries, delivering advanced solutions for the construction and industrial sectors.",
+			"part3": "For more than four years we have cooperated with Westinghouse on projects related to dismantling nuclear reactor components.",
+			"part4": "Our work includes precision underwater cutting in reactor pools at depths of approximately 25 meters, performed together with an international team of specialists.",
+			"part5": "Countries of cooperation: ",
+			"part6": "Poland, Germany, Sweden, Finland, Austria, South Africa. Nuclear power plant projects: KKU Unterweser, KKI Isar, KKB Biblis (Germany) and BKW (Switzerland)."
 		}
 	},
-	"offerText":{
-"text1":"Drilling holes using diamond technology",
-"text2":"Cutting in concrete / reinforced concrete structures using the diamond cutting method",
-"text3":"Cutting by diamond rope ",
-"text4":"Cutting by road saw",
-"text5":"Cutting with wall saws",
-"text6":"Anchors attachment",
-"text7":"Technical demolitions",
-"text8":"Demolitions"
+	"offerText": {
+		"text1": "Drilling holes using diamond technology",
+		"text2": "Cutting in concrete / reinforced concrete structures using the diamond cutting method",
+		"text3": "Cutting by diamond rope ",
+		"text4": "Cutting by road saw",
+		"text5": "Cutting with wall saws",
+		"text6": "Anchors attachment",
+		"text7": "Technical demolitions",
+		"text8": "Demolitions"
 	},
 	"contactDetails": {
-	"name":{
-		"title":"Contact details",
-		"madeBy":"By Magdalena Krawiec"
+		"name": {
+			"title": "Contact details",
+			"madeBy": "By Magdalena Krawiec"
+		}
 	}
-
-}
-
 }
