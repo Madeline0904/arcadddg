@@ -36,8 +36,9 @@ function App() {
     <>
     <Nav/>
     <Header/>
-   <Offer/>
+
    <Firm/>
+      <Offer/>
    <Portfolio/>
    <Contact/>
    <Footer 
