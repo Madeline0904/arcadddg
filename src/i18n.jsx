@@ -13,7 +13,7 @@ i18n
 	.use(initReactI18next)
 	.init({
 		backend: {
-			loadPath: '/arcadddg/locales/{{lng}}/{{ns}}.json',
+			loadPath: '/locales/{{lng}}/{{ns}}.json',
 		},
 		fallbackLng: 'pl',
 		debug: true,

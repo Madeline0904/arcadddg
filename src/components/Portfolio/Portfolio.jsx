@@ -39,7 +39,7 @@ export default function Portfolio() {
 				/>
 				<LightBox
 					index={index}
-					slides={getSlides(3000)}
+					slides={getSlides(2000)}
 					open={index >= 0}
 					close={() => setIndex(-1)}
 					plugins={[Captions, Video]}

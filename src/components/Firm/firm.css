@@ -1,13 +1,4 @@
-.firm_img {
-	position: relative;
-	height: 50vh;
-	background-image: url('../../../public/assets/img/huta_katowice.3000w.jpg');
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center;
-	color: #fff;
-	z-index: 0;
-}
+
 .firm_shadow {
 	position: absolute;
 	top: 0;

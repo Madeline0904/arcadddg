@@ -76,13 +76,6 @@ export const slides = [
 		title: 'Elektrownia Nidzica',
 	},
 	{
-		asset: 'elektrownia_Nidzica8',
-		width: 3000,
-		height: 4000,
-		description: '',
-		title: 'Elektrownia Nidzica',
-	},
-	{
 		asset: 'elektrownia_Nidzica9',
 		width: 3000,
 		height: 4000,
@@ -156,7 +149,7 @@ export const slides = [
 			},
 		],
 	},
-		{
+	{
 		type: 'video',
 		asset: '',
 		poster: './assets/img/elektrownia_nidzica3.png',
@@ -171,7 +164,7 @@ export const slides = [
 			},
 		],
 	},
-		{
+	{
 		type: 'video',
 		asset: '',
 		poster: './assets/img/elektrownia_porebka.png',
@@ -188,7 +181,7 @@ export const slides = [
 	},
 ]
 
-export function getSlides(dstWidth = 3000) {
+export function getSlides(dstWidth = 2000) {
 	return slides.map(({ asset, width, height, ...rest }) => {
 		if (rest.type === 'video') {
 			return rest
